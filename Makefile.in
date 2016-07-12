@@ -8,7 +8,7 @@ all: $(PREFIX)/include/boost $(PREFIX)/include/google/protobuf $(PREFIX)/share/j
 boost_1_53_0.tar.gz:
 	wget https://downloads.sourceforge.net/project/boost/boost/1.53.0/boost_1_53_0.tar.gz
 protobuf-2.6.0.tar.gz:
-	https://github.com/google/protobuf/releases/download/v2.6.0/protobuf-2.6.0.tar.gz
+	wget https://github.com/google/protobuf/releases/download/v2.6.0/protobuf-2.6.0.tar.gz
 glog-0.3.3.tar.gz:
 	wget https://google-glog.googlecode.com/files/glog-0.3.3.tar.gz
 
